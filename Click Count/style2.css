@@ -1,0 +1,29 @@
+#lab{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+
+}
+
+#heading{
+    text-align: center;
+}
+
+#btncontainer{
+    text-align: center;
+}
+
+.but{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: rgb(240, 208, 169);
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.10s;
+}
+
+.but:hover{
+    background-color: rgb(234, 190, 135);
+}
