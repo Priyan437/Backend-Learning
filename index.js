@@ -94,3 +94,6 @@ Operator Precedence
      console.log(n);
      console.log(o);
      console.log(l) */
+
+     let u = "Bro Code";
+     console.log(u.slice(1,6));
