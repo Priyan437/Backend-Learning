@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+}
+
+#Butto{
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+#show{
+    padding: 5px;
+}

@@ -70,8 +70,8 @@ Operator Precedence
 //     console.log(username);
 // }
 
-/* Code for finding the Are of the Circle
-*/
+/* Code for finding the Area of the Circle
+
 
      let d;
      document.getElementById("b").onclick = function(){
@@ -79,3 +79,18 @@ Operator Precedence
         let area = (3.14 * d**2)/4;
         document.getElementById("answer").textContent = `area of circle is ${area}`;
      };
+
+   
+
+     /* String Methods */
+
+     /* let userName = "Priyanshu Kumar";
+     let m = userName.charAt(8);
+     let n = userName.indexOf("a")
+     let o = userName.lastIndexOf("a")
+     let l = userName.length;
+     console.log(typeof(m));
+     console.log(m);
+     console.log(n);
+     console.log(o);
+     console.log(l) */
