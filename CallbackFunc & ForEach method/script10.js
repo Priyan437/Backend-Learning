@@ -83,3 +83,53 @@ function isold(element){
 console.log(child);
 console.log(adult);
 console.log(old);
+
+// .reduce() = reduce the element of an array to a single value.
+
+const grades = [75,80,96,74,65,45];
+
+const maximu = grades.reduce(maximum);
+const minimu = grades.reduce(minimum);
+
+console.log(maximu);
+console.log(minimu);
+
+function maximum(accumulator, element){
+    return Math.max(accumulator, element);
+}
+
+function minimum(accumulator, element){
+    return Math.min(accumulator, element);
+}
+
+/* Function Expressions = a way yo define functions as 
+                          values or variables.
+
+        1. Callbacks in asynchronous operations.
+        2. Higher-Order Functions.
+        3. Closures.
+        4. Event Listeners.
+*/ 
+
+const hello = function(){
+    console.log(`Hello!`);  // Function is assigned a name that is a 
+                            // function expressions.
+                       }
+
+setTimeout(function(){
+    console.log(`Hello`);
+}, 3000);
+
+// Arrow Functions = a concise way to write function expressions good 
+//                   for simple functions that you use only once.
+//                   (parameters) => some code
+
+const hello2 = () => console.log(`Hello`);
+hello2();
+
+const numbers = [5,6,8,7,12,45,65,89,78,32,1,25,65];
+
+const s = numbers.map((element)=> Math.pow(element,2));
+const c = numbers.map((element)=> Math.pow(element,3));
+console.log(s)
+console.log(c);
