@@ -97,3 +97,62 @@ Operator Precedence
 
      let u = "Bro Code";
      console.log(u.slice(1,6));
+
+     // ARRAY = A Variable like structure that can hold more
+          // than 1 value.
+
+        //   let fruits = ["Apple", "Banana", "Orange"]
+        //   fruits[0] = "Guava";
+        //   fruits.push("Grapes"); ## Last me add hoga.
+        //   fruits.pop();          ## Last ka ek nikal jayega
+        //   fruits.unshift("starting me add hoga.");
+        
+        //for(let i = 0; i<fruits.length; i++){
+              //console.log(fruits[i]);
+              //}
+
+            //   for(let fruit of fruits){
+            //     console.log(fruit);           ##Short Form of above For loop
+            //   }
+ 
+/*  SORTING OF AN ARRAY
+
+    fruits.sort()  ## Sort in the Ascending Order.
+    fruits.sort().reverse() ## sort in the descending reverse order.
+*/
+
+
+/* Spread Operators -->  ... allows an iterable such as an
+                             array or string to be expanded into 
+                             seperate elements (Unpack the elements)
+                             
+                             let numbers = [1,2,3,4,5,6,7,8,9] 
+                             console.log(Maths.max(numbers))  ## It will give an error as each element is not individual.
+                             
+                             console.log(Maths.max(...numbers))  ##It will not give error as it is unpacked as each element individually.*/ 
+
+
+/* rest Parameters --> (...rest) allow a function work with a variable
+                        number of arguments by bundling them into an array
+                        
+                        spread = expands an array into seperable elements
+                        rest = bundles seperate elements into an array.
+                        
+                        const food1 = "Maggi";
+                        const food1 = "Chcolate";
+                        const food1 = "Kitkat";
+                        const food1 = "Icecream";
+                        const food1 = "Cucumber";
+
+                        function food(...fi){
+                           return fi; 
+                        }
+
+                        const ans = food(food1, food2, food3, food4)
+                        
+
+                        ## we can put as many parametrs as we want.
+                        */
+                       
+                        // If we don't know the Number of parameters which we have to input in
+                        // the function then we take the help of the rest(...)
