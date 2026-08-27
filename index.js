@@ -156,3 +156,16 @@ Operator Precedence
                        
                         // If we don't know the Number of parameters which we have to input in
                         // the function then we take the help of the rest(...)
+
+                        /* Callback =  a function that is passed as an argument 
+                                       to another function.
+                                       
+                                       used to handle asynchronus operation:
+                                       1. Reading a file.
+                                       2. Networking Requests
+                                       3.Interacting with databases*/ 
+
+                        /*forEach() = method used to iterate over the elements 
+                                      of an array and apply a specified function 
+                                      (Callback) to each element 
+                                      apply.forEach(callback)*/ 
