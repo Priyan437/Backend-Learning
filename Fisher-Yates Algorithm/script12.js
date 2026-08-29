@@ -14,4 +14,4 @@ function shuffle(){
     }
 }
 shuffle(cards);
-console.log(cards);
+console.log(cards);0
